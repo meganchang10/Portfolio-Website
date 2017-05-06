@@ -1,6 +1,6 @@
 /* Set the font to Lato and put space at top of page */
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "lato", sans-serif;
     margin-top: 15px;
 }
 
