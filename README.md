@@ -5,6 +5,6 @@ Inside of the Portfolio folder, you should find the following 4 items:
   * css folder
   * images folder
   * pdfs folder
-  * portfolio.html file
+  * index.html file
 
 Download the entire Portfolio folder, then open and run the portfolio.html file. This should produce Megan Chang's portfolio website.
