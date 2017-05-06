@@ -17,88 +17,71 @@
       to be responsive.  -->
   <body>
     <div class="container">
-      <div class="row">
+
+      <header class="row">
         <div class="col-md-6">
-            <img src="images/logo.png" class="img-responsive title-logo" alt="Good Vibes Logo" width="200px" >
+            <img src="images/logo.png" class="img-responsive title-logo" alt="Good Vibes Logo" width="200" >
         </div>
-        <div class="col-md-6 text-right text-uppercase ">
+        <hgroup class="col-md-6 text-right text-uppercase ">
           <h1 class="text-thin title-super">Megan Chang</h1>
           <h4>Full-Stack Developer</h4>
-        </div>
-      </div>
+        </hgroup>
+      </header>
 
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
-        </div>
-      </div>
-
-      <div class="container text-center">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="row">
-            <div class="navbar-header">
-              <div class="col-md-2">
-                <a href="https://www.linkedin.com/in/megan-chang-8a69ba69/">LinkedIn Profile</a>
-              </div>
-              <div class="col-md-2">
-                <a href="pdfs/Megan_Chang_Resume.pdf">Resume</a>
-              </div>
-            </div>
+      <hr>
+      <nav class="container text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="https://www.linkedin.com/in/megan-chang-8a69ba69/">LinkedIn Profile</a>
+          </div>
+          <div class="col-md-3">
+            <a href="pdfs/Megan_Chang_Resume.pdf">Resume</a>
           </div>
         </div>
-      </div>
+      </nav>
+      <hr>
 
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
-        </div>
-      </div>
+      <img src="images/travel.jpg" class="img-responsive" alt="Megan in Montenegro" width="1140">
 
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/travel.jpg" class="img-responsive" alt="Megan in Montenegro" width="1000px">
-        </div>
-      </div>
-      <div class="row">
+      <h2 class="row">
         <div class="col-md-12">
           <h2 class="text-thin">Mechanical Engineering Projects</h2>
         </div>
-      </div>
+      </h2>
 
-      <div class="row text-center">
-        <div class="col-md-4">
-          <img src="images/Thesis_Image.jpg" class="img-responsive" alt="Snowflake" width="370px">
+      <main class="row text-center">
+        <article class="col-md-4">
+          <img src="images/Thesis_Image.jpg" class="img-responsive" alt="Snowflake" width="370">
           <h4>UCSB Master's Thesis</h4>
           <p><a href="pdfs/Thesis_Report.pdf">Thesis Report</a></p>
           <p><a href="images/Snowflake_Growth.m4v">Simulation Created by my Thesis Code</a></p>
           <p class="text-left">For my thesis, I developed a MATLAB code that could simulate complicated dendritic crystal growth. This tool can be used to study the alloy solidification processes and determine the ideal conditions for producing desired material properties (i.e. improve strength, ductility, etc. of alloys).</p>
-        </div>
+        </article>
 
-        <div class="col-md-4">
-          <img src="images/most_marketable.jpg" class="img-responsive" alt="Most Marketable Design" width="370px">
+        <article class="col-md-4">
+          <img src="images/most_marketable.jpg" class="img-responsive" alt="Most Marketable Design" width="370">
           <h4>Won Most Marketable Design</h4>
           <p><a href="pdfs/Modular_Table.pdf">Modular Table Poster</a></p>
           <p><a href="https://www.youtube.com/watch?v=KUha4bXCQkc">Modular Table Video</a></p>
           <p class="text-left">For UCSB's Junior Design Project, the goal was to design a new product that could be used in everyday life. My team and I designed a modular table that could be reshaped into different configurations like tetris pieces. For our efforts, we were awarded Most Marketable Design by a panel of judges that included both professors and industry leaders.</p>
-        </div>
+        </article>
 
-        <div class="col-md-4">
-          <img src="images/Dodonpa.jpg" class="img-responsive" alt="Dodonpa Roller Coaster" width="370px">
+        <article class="col-md-4">
+          <img src="images/Dodonpa.jpg" class="img-responsive" alt="Dodonpa Roller Coaster" width="370">
           <h4>Won Writing Excellence Award</h4>
           <p><a href="https://en.wikipedia.org/wiki/Dodonpa">Dodonpa article</a></p>
           <p><a href="https://tools.wmflabs.org/pageviews/?project=en.wikipedia.org&platform=all-access&agent=user&range=latest-30&pages=Dodonpa">Page View Statistics</a></p>
           <p class="text-left">The assignment was to write a technical report to be published on Wikipedia as a new topic. I chose to write about the Dodonpa roller coaster located in Japan. My article receives around 3,000 views monthly, and was rated as B-class by Wikipedia (the highest grade ever received for this assignment). Furthermore, I received a UCSB Writing Excellence Award.</p>
-        </div>
-      </div>
+        </article>
+      </main>
 
-      <div class="row">
+      <section class="computer-science-projects row">
         <div class="col-md-12">
           <h2 class="text-thin">Software Devlopment Projects Coming Soon!</h2>
+          <!-- TODO: Add software projects here, once you finish Udacity Nanodegree. -->
         </div>
-      </div>
-      <!-- TODO: Add software projects here, once you finish Udacity Nanodegree. -->
-      </div>
-    </div>
+      </section>
 
+    </div>
   </body>
 </html>
